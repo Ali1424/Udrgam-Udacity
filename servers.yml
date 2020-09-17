@@ -89,7 +89,7 @@ Resources:
             apt-get update
             apt-get install -y docker-ce
             usermod -aG docker ubuntu
-            docker run -p 8080:8080 tomcat:8.0
+            docker run -p 80:80 tomcat:8.0
         ImageId: ami-003634241a8fcdec0
         KeyName: Pserver-Devops-key
         SecurityGroups:
